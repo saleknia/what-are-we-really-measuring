@@ -4,7 +4,6 @@ import torchvision
 import logging
 from utils import color
 from tabulate import tabulate
-import ml_collections
 
 def logger_config(log_path):
     loggerr = logging.getLogger()
@@ -31,7 +30,7 @@ os.environ['PYTHONHASHSEED'] = str(SEED)
 tensorboard = False
 tensorboard_folder = './logs/tensorboard'
 log = True
-logging_folder = './logs/logging'
+logging_folder = './logs'
 
 if log:
     logging_log = logging_folder
@@ -96,14 +95,13 @@ if task_id==5:
     NUM_CLASS = 3
     TASK_NAME = 'MIT-67'
 
-model_ids = ['1','2','3','4','5']
+model_ids = ['1','2','3','4']
 model_table = tabulate(
                     tabular_data=[
                         ['ConvNext'    , 1],
                         ['MVIT'        , 2],
-                        ['ResNet'      , 3],
-                        ['VIT'         , 4],
-                        ['DinoV2'      , 5]],
+                        ['VIT'         , 3],
+                        ['DinoV2'      , 4]],
                     headers=['Model Name', 'ID'],
                     tablefmt="fancy_grid"
                     )
@@ -120,12 +118,9 @@ elif model_id==2:
     MODEL_NAME = 'MVIT'
 
 elif model_id==3:
-    MODEL_NAME = 'ResNet'
-
-elif model_id==4:
     MODEL_NAME = 'VIT'
 
-elif model_id==5:
+elif model_id==4:
     MODEL_NAME = 'DinoV2'
 
 CKPT_NAME = MODEL_NAME + '_' + TASK_NAME
