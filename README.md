@@ -26,6 +26,19 @@ Our approach reveals that when analysis is constrained to semantics, the high se
 
 **Methodological re evaluation:** The traditional interpretation of high dataset classification accuracy as evidence of semantic bias should be reconsidered. Unsupervised semantic clustering offers a more principled alternative for measuring true semantic differences between web scale natural image collections.
 
+## Citation
+
+If you use this code or find our work helpful, please cite the paper:
+
+```bibtex
+@article{saleknia2026what,
+  title={What are we really measuring? Rethinking dataset bias in web-scale natural image collections via unsupervised semantic clustering},
+  author={Saleknia, Amir Hossein and Sabokrou, Mohammad},
+  journal={Neurocomputing},
+  year={2026},
+  doi={10.1016/j.neucom.2026.133679}
+}
+
 ## Contact
 
 For any inquiries or questions regarding the paper or code, please feel free to contact us directly via email:
