@@ -39,9 +39,10 @@ If you use this code or find our work helpful, please cite the paper:
   doi={10.1016/j.neucom.2026.133679}
 }
 
-## Contact
+## Contact Information
 
 For any inquiries or questions regarding the paper or code, please feel free to contact us directly via email:
 
 - Amir Hossein Saleknia: salekniaamir@gmail.com
 - Mohammad Sabokrou: mohammad.sabokrou@oist.jp
+
