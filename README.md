@@ -30,3 +30,10 @@ Our approach reveals that when analysis is constrained to semantics, the high se
 **Minimal semantic bias:** When artifacts are controlled for, the apparent dataset separability largely vanishes. Our unsupervised method achieves near chance accuracy (46.95% on YCD), which is comparable to the human performance (45.4%) reported in "[A Decade's Battle on Dataset Bias: Are We There Yet?](https://arxiv.org/abs/2403.08632)" (Liu and He, ICLR 2025).
 
 **Methodological re evaluation:** The traditional interpretation of high dataset classification accuracy as evidence of semantic bias should be reconsidered. Unsupervised semantic clustering offers a more principled alternative for measuring true semantic differences between web scale natural image collections.
+
+## Contact
+
+For any inquiries or questions regarding the paper or code, please feel free to contact us directly via email:
+
+- Amir Hossein Saleknia: salekniaamir@gmail.com
+- Mohammad Sabokrou: mohammad.sabokrou@oist.jp
