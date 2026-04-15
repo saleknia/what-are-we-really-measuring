@@ -38,7 +38,7 @@ If you use this code or find our work helpful, please cite the paper:
   year={2026},
   doi={10.1016/j.neucom.2026.133679}
 }
-
+'''
 ## Contact Information
 
 For any inquiries or questions regarding the paper or code, please feel free to contact us directly via email:
