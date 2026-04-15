@@ -26,6 +26,23 @@ Our approach reveals that when analysis is constrained to semantics, the high se
 
 **Methodological re evaluation:** The traditional interpretation of high dataset classification accuracy as evidence of semantic bias should be reconsidered. Unsupervised semantic clustering offers a more principled alternative for measuring true semantic differences between web scale natural image collections.
 
+## Run the Code in Google Colab
+
+No local setup required. Click the badge below to run the entire pipeline in your browser:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/what-are-we-really-measuring/blob/main/demo.ipynb)
+
+The Colab notebook walks you through the complete pipeline:
+
+1. Install dependencies
+2. Load DINOv2 model
+3. Extract features from sample images
+4. Apply UMAP dimensionality reduction
+5. Perform K-Means clustering
+6. Evaluate results using NMI (Normalized Mutual Information)
+7. Visualize the clusters
+
+You can modify the notebook to run on your own datasets or adjust the hyperparameters.
 ## Citation
 
 If you use this code or find our work helpful, please cite the paper:
