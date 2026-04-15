@@ -27,6 +27,6 @@ Our approach reveals that when analysis is constrained to semantics, the high se
 
 **Unsupervised resilience:** Unsupervised clustering has no access to dataset labels and cannot be instructed to discriminate. It only groups images based on the natural structure of the feature space. This makes it less susceptible to non semantic artifacts.
 
-**Minimal semantic bias:** When artifacts are controlled for, the apparent dataset separability largely vanishes. Our unsupervised method achieves near chance accuracy (46.95% on YCD), which is comparable to human performance (45.4%). We attribute this proximity to chance or different failure modes, not shared semantic understanding.
+**Minimal semantic bias:** When artifacts are controlled for, the apparent dataset separability largely vanishes. Our unsupervised method achieves near chance accuracy (46.95% on YCD), which is comparable to the human performance (45.4%) reported in "[A Decade's Battle on Dataset Bias: Are We There Yet?](https://arxiv.org/abs/2403.08632)" (Liu and He, ICLR 2025).
 
 **Methodological re evaluation:** The traditional interpretation of high dataset classification accuracy as evidence of semantic bias should be reconsidered. Unsupervised semantic clustering offers a more principled alternative for measuring true semantic differences between web scale natural image collections.
